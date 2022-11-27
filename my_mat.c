@@ -42,10 +42,10 @@ void createMat(){
 }
 
 void shortestPath(){
-    int i, j;
-    scanf("%d", "%d" , &i, &j);
-    if (mat[i][j]==0) printf("-1\n")
-    printf("%d\n" , mat[i][j]);
+    int a,b;
+    scanf("%d%d" , &a, &b);
+    if (mat[a][b]==0) printf("-1\n");
+    printf("%d\n" , mat[a][b]);
 
 }
 
