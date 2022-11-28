@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#define SIZE 10;
+#define SIZE 10
 
 
 int mat[SIZE][SIZE];
@@ -35,6 +35,7 @@ void shortestPathHelp(){
 }
 
 void createMat(){
+    int i,j;
     for (int i = 0 ; i < 10; i++){
         for (int j = 0 ; j < 10 ; j++){
             scanf("%d", &mat[i][j]);
@@ -47,7 +48,7 @@ void shortestPath(){
     int a,b;
     scanf("%d%d" , &a, &b);
     if (mat[a][b]==0) printf("-1\n");
-    printf("%d\n" , mat[a][b]);
+    else printf("%d\n" , mat[a][b]);
 
 }
 
