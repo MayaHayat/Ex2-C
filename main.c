@@ -4,6 +4,7 @@
 int main(){
 
     char choice;
+    
     while (scanf("%c" , &choice)!= 'D'){
         if (choice == 'A') createMat();
         if (choice == 'B') isTherePath();

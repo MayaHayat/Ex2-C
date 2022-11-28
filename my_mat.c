@@ -36,8 +36,8 @@ void shortestPathHelp(){
 
 void createMat(){
     int i,j;
-    for (int i = 0 ; i < SIZE; i++){
-        for (int j = 0 ; j < SIZE ; j++){
+    for (i = 0 ; i < SIZE; i++){
+        for (j = 0 ; j < SIZE ; j++){
             scanf("%d", &mat[i][j]);
         }
     }
