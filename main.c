@@ -8,15 +8,15 @@ int main(){
     while (scanf("%c", &choice)!= 'D'){
         if (choice == 'A'){
             createMat();
-            break;
+            continue;
         } 
         if (choice == 'B') {
             isTherePath();
-            break;
+            continue;;
         }
         if (choice == 'C'){
             shortestPath();
-            break;
+            continue;
         } 
     }
     return 0;
