@@ -5,19 +5,22 @@ int main(){
 
     char choice;
     
-    while (scanf("%c", &choice)!= 'D'){
+    while (scanf("%c", &choice)!= EOF){
         if (choice == 'A'){
             createMat();
-            continue;
+            break;
         } 
         if (choice == 'B') {
             isTherePath();
-            continue;;
+            break;
         }
         if (choice == 'C'){
             shortestPath();
-            continue;
+            break;
         } 
+        if (choice == 'D'){
+            return 0;
+        }
     }
     return 0;
 }
